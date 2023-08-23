@@ -1,4 +1,8 @@
+
 @import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+
 :root {
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
@@ -7,6 +11,10 @@
     }
     body {
         background-color: var(--cor-de-fundo);
+        }
+
+        body {
+            transform: rotate(180deg);
         }
         
 
